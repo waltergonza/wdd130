@@ -1,0 +1,17 @@
+HTML links:
+
+* Tag: <a> 
+*attribute: href 
+-example:
+href="here comes the link"> paragraph with link<\a>
+
+HTML IMAGES: 
+
+* tag: <img> 
+*attributes: src(the sourece file), alt(alternative text), width and height(you define where would you like to show)
+-example: 
+<img src="image" alt="image" width-"104 height="142">
+
+
+
+
