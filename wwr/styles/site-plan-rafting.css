@@ -1,0 +1,64 @@
+@font-face { font-family: Roboto; 
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');}
+
+:root{
+    --primary-color: #19647E;
+    --secondary-color: #0A0C08; 
+    --third-color: #EE964B;
+    --accent1-color: #FEFAEC;
+    --accent2-color: #28AFB0;
+     
+    --heading-font: 'Roboto', Roboto;
+    --paragraph-font: 'Roboto' Roboto;
+
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--primary-color);
+    --nav-hover-background-color: var(--third-color);
+}
+
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;;
+
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
