@@ -17,6 +17,7 @@ nav a {
 
 h1 {
     color: steelblue;
+    text-indent: 2em;
 }
 
 img {
@@ -29,11 +30,18 @@ img {
 }
 
 p {
-    padding: 0;
+    padding: 8px;
+    
+    
 }
 
 main {
     max-width: 840px;
+    font-size: 2.0;
+    line-height: 20px;
+    padding: 30px;
+
+
 }
 
 aside {
@@ -45,6 +53,8 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
+    
 }
 
 aside img {
@@ -81,13 +91,9 @@ footer {
     color: #333;
 }
 
-aside {
-    width: 20em;
-    text-align: center;
-}
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: -7px;
+    left: 1px;
 }
