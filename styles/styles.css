@@ -30,17 +30,13 @@ img {
 }
 
 p {
-    padding: 8px;
-    
+    padding: 15px;
+
     
 }
 
 main {
     max-width: 840px;
-    font-size: 2.0;
-    line-height: 20px;
-    padding: 30px;
-
 
 }
 
