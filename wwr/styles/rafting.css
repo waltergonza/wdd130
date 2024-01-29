@@ -1,0 +1,89 @@
+@font-face { font-family: Roboto; 
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');}
+
+:root{
+    --primary-color: #19647E;
+    --secondary-color: #0A0C08; 
+    --third-color: #EE964B;
+    --accent1-color: #FEFAEC;
+    --accent2-color: #28AFB0;
+         
+    --heading-font: 'Roboto', Roboto;
+    --paragraph-font: 'Roboto' Roboto;
+    
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--primary-color);
+    --nav-hover-background-color: var(--third-color);
+}
+
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--third-color);
+}
+
+p{
+
+    color: var(--secondary-color);
+    padding: 25px;
+
+}
+
+a{
+
+    color: var(--secondary-color);
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    text-align: left;
+    margin: auto;
+    padding: 30px;
+    max-width: 1200px;
+    
+}
+
+a:link {
+
+    text-decoration: none;
+    
+}
+
+
+.hero{
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.hero img {
+    
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.hero h1 {
+    position: absolute;
+    top: 40px;
+    left: 840px;
+    background-color: lightgrey;
+    opacity: .9;
+    color: var(--secondary-color);
+}
+
+article {
+    position: absolute;
+    top: 3%;
+    left: 800px;
+    background-color: darkgrey;
+    padding: 20px;
+    opacity: .8;
+
+}
+
+
