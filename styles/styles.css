@@ -24,8 +24,7 @@ nav a {
 
 h1 {
     color: steelblue;
-    text-indent: 2em;
-    border-bottom: 2px;
+    text-indent: 2rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #000;
 }
