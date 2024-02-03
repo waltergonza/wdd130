@@ -89,4 +89,5 @@ article {
 .article h2{
     position: absolute;
     top: 1px;
+    right: 5px;
 }
