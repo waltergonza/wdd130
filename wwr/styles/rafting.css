@@ -150,14 +150,14 @@ header {
   }
   
   .adventures-container figure {
-    flex: 1; /* Each figure takes up equal space */
+    flex: 1; 
     text-align: center;
   }
   
   .adventures-container img {
     width: 100%;
     height: auto;
-    border: 1px solid #ccc; /* Add border for each image */
+    border: 1px solid #ccc; 
   }
   
   .adventures-container figcaption {
