@@ -105,7 +105,7 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 20px;
-    background-color: lightslategray;
+    background-color: rgb(184, 182, 181);
     color: white;
 }
 
