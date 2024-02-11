@@ -123,7 +123,7 @@ header {
 }
 
 .history-section h2 {
-    color: #0A0C08;
+    color: red;
     flex: 1;
     margin: 0;
     border-right: 2px solid black;
@@ -134,7 +134,7 @@ header {
 }
 
 .history-section p {
-    color: #EE964B;
+    color: var(--secondary-color);
     flex: 2;
     height: 100%;
 }
@@ -146,9 +146,9 @@ header {
   }
 
   .adventures-section h2 {
-    color: var(--third-color);
+    color: red;
   }
-  
+
   .adventures-container {
     display: flex;
     justify-content: space-between;
