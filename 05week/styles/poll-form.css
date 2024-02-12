@@ -98,11 +98,11 @@ footer {
     align-items: center;
 }
 
-.colum1 {
+.column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
 }
 
-.colum2 {
+.column2 {
     grid-template-columns: 1fr 2fr;
 }
