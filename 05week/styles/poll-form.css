@@ -92,3 +92,17 @@ footer {
     border-top: 1px solid #ccc;
     
 }
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.colum1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.colum2 {
+    grid-template-columns: 1fr 2fr;
+}

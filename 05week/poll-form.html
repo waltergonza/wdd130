@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | HTML Form - User Poll</title>
-    <link rel="stylesheet" href="WDD130/05week/styles/poll-form.css">
+    <link rel="stylesheet" href="/05week/styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -15,22 +15,29 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail">
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser">What is your favorite internet browser?</label>
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="firefox">Firefox</option>
-                    <option value="safary">Safary</option>
-                    <option value="edge">Edge</option>
-                    <option value="brave">Brave</option>
-                    <option value="other">Other</option>
-                </select>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safary">Safary</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" id="pet" name="pet">
                 <label for="feedback">List the places you have lived:</label>
