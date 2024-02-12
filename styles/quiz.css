@@ -1,7 +1,6 @@
 @font-face { font-family: Roboto; 
     src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');}
 
-
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@
 
 body {
     font-family: Roboto;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #333;
     background: #fff;
 }
@@ -24,7 +23,7 @@ h1 {
     margin: item;
     font-size: 1.5em;
     color: navy;
-    text-align: center;
+    text-align: left;
 }
 
 form {
@@ -39,15 +38,9 @@ fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 4px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
 
-}
-
-legend {
-    padding: 0.5rem;
-    color: navy;
-    font-size: 1.3rem;
 }
 
 label, input, button, select, textarea {
@@ -59,16 +52,15 @@ label {
     padding-right: 1rem;
 }
 
-input, select, textarea {
+input, textarea {
     padding: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
-    
+select {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    padding-right: 5rem;
 }
 
 button {
@@ -76,36 +68,15 @@ button {
     background-color: navy;
     color: #fff;
     border: none;
-    border-radius: .5rem;
-    padding: .75rem;
+    border-radius: .1rem;
+    padding: .55rem;
     font-size: 1.2rem;  
 
 }
 
-button:hover {
-    background-color: darkgreen;
-}
-
-footer {
-    margin: 1rem auto 0;
-    width: 650px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #ccc;
-    
-}
-
-.form-item {
-    display: grid;
-    align-items: center;
-}
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
-}
+th {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    background-color: cornsilk;
+  }
+  
