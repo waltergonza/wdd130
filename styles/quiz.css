@@ -32,6 +32,7 @@ form {
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #ccc;
+    display: grid;
 }
 
 fieldset {
@@ -48,20 +49,16 @@ label, input, button, select, textarea {
 }
 
 label {
-    text-align: right;
-    padding-right: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.1rem;
+   
 }
 
-input, textarea {
-    padding: 0.5rem;
-    font-size: 1.3rem;
-}
-
-select {
+input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-    padding-right: 5rem;
 }
+
 
 button {
     margin: 1rem;
@@ -80,3 +77,26 @@ th {
     background-color: cornsilk;
   }
   
+
+.form-item {
+    margin-bottom: 20px;
+}
+
+.column1,
+.column2 {
+    width: 100%;
+   
+   
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
