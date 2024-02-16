@@ -42,6 +42,7 @@ body {
     margin: auto;
     padding: 30px;
     max-width: 1200px;
+    background: linear-gradient(90deg,  #28AFB0 30%, #28AFB0 100%)
     
 }
 
@@ -107,7 +108,7 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 20px;
-    background-color: rgb(184, 182, 181);
+    background-color: var(--accent1-color);
     color: white;
 }
 
@@ -146,7 +147,8 @@ header {
   }
 
   .adventures-section h2 {
-    color: red;
+    color: var(--accent1-color);
+    margin-top: 7%;
   }
 
   .adventures-container {
@@ -184,4 +186,166 @@ footer {
 
 .sociallinks a {
     margin-left: 10px;
+}
+
+.contactUs {
+    position: relative;
+    width: 80%;
+    padding: 40px 100px;
+}
+
+.contactUs .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: var(--accent1-color);
+}
+
+.contactUs .title h2 {
+
+    color: var(--accent1-color);
+    font-weight: 500;
+}
+
+
+.form {
+    grid-area: form;
+}
+
+.info {
+    grid-area: info;
+}
+
+.map {
+    grid-area: map;
+}
+
+.contact {
+    padding: 40px;
+    background-color: var(--accent1-color);
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 1);
+}
+
+.box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 8fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.contact h3 {
+
+    color: #0e3959;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formbox {
+    position: relative;
+    width: 100%;
+}
+
+.formbox .row50 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formbox .row100 .inputbox {
+    width: 100%;
+}
+
+.inputbox label {
+    color: var(--primary-color);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.inputbox input {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+}
+
+.inputbox textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+
+}
+
+.inputbox input[type="submit"] {
+    background: var(--primary-color);
+    color: var(--accent1-color);
+    border: none;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+
+.inputbox ::placeholder {
+    color: #999;
+}
+
+.info {
+    background: var(--primary-color);
+}
+
+.info h3 {
+    color: var(--accent1-color);
+}
+
+.info .infobox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info .infobox div span {
+    min-width: 40px;
+    height: 40px;
+    color: var(--accent1-color);
+    background: #18b7ff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+
+.info .infobox div a {
+    color: var(--accent1-color);
+    text-decoration: none;
+}
+
+.map {
+    padding: 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
 }
