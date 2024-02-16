@@ -202,7 +202,7 @@ footer {
     color: var(--accent1-color);
 }
 
-.contactUs .title h2 {
+.contactUs .title h1 {
 
     color: var(--accent1-color);
     font-weight: 500;
@@ -294,7 +294,7 @@ footer {
 
 }
 
-.inputbox input[type="submit"] {
+button {
     background: var(--primary-color);
     color: var(--accent1-color);
     border: none;
@@ -302,11 +302,12 @@ footer {
     max-width: 120px;
     font-weight: 500;
     cursor: pointer;
-    padding: 14px 15px;
+    padding: 14px 15px;  
+
 }
 
-.inputbox ::placeholder {
-    color: #999;
+button:hover {
+    background-color: darkgreen;
 }
 
 .info {
