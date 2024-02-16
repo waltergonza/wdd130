@@ -326,6 +326,7 @@ footer {
 .info .infobox div span {
     min-width: 40px;
     height: 40px;
+    align-items: center;
     color: var(--accent1-color);
     background: #18b7ff;
     display: flex;
