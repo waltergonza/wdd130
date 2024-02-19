@@ -442,7 +442,7 @@ a:hover {
  
 .cta,
 .newsletter {
-    color: var(--accent1-color);
+    
     border: 3px solid black;
     position: relative;
     margin-top: 20px;
@@ -450,6 +450,10 @@ a:hover {
     display: table-column;
     background-color: var(--primary-color);
 
+}
+
+.cta h2, .newsletter h2 {
+    color: var(--accent1-color);
 }
 
 .cta a {
