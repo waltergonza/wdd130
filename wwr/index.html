@@ -14,26 +14,67 @@
 
 <body>
     <header>
-        <!-- Large Full-Width Image with Heading Message -->
-        <div class="hero">
-            <h1>Embark on the Ultimate White Water Rafting Adventure</h1>
-            <img src="images/background_image.jpg" alt="background_image">
-        </div>
+  
+        <img src="images/logo.png" alt="White Water Rafting logo">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Conact Us</a>
+        </nav>
+
     </header>
 
     <main>
+        
+        <!-- Large Full-Width Image with Heading Message -->
+        <div class="container">
+            <h1>Welcome to SplashWave Ventures Where Rafting Dreams Come True!</h1>            
+            <img src="images/background_image.jpg" alt="background_image"> 
+              
+        </div>
+
+        <pre></pre>
         <!-- CSS Grid Layout -->
         <section class="grid-container">
-            <!-- First Grid Item - Newsletter Sign Up Form -->
+
             <div class="newsletter">
-                <h2>Subscribe for Exclusive Updates</h2>
-                <!-- Your Newsletter Sign-Up Form Goes Here -->
+                <div class="title">
+                    <h1>Subscribe for Exclusive Updates</h1>
+                </div>
+                
+                <div class="Subscription">
+                    <div class="form">
+                        <h3>Enter the following information:</h3>
+                        <form>
+                            <div class="formbox">
+                                <div class="row50">
+                                    <div class="inputbox">
+                                        <label for="first_name">First Name:</label>
+                                        <input type="text" id="first_name" name="first_name" required placeholder="Walter">
+                                    </div>
+                                </div>
+                                
+                                <div class="row50">
+                                    <div class="inputbox">
+                                        <label for="Email">Email</label>
+                                        <input type="text" id="Email" name="Email" required placeholder="Waltergz@gmail.com"><pre></pre>
+                                        <button type="subscribe">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
+            
 
             <!-- Second Grid Item - Call to Action -->
             <div class="cta">
                 <h2>Explore Our Trips</h2>
                 <p>Discover thrilling white water rafting experiences that await you.</p>
+                <img src="discover.png" alt="Discover trips">
                 <a href="trips.html">View Trips</a>
             </div>
 
