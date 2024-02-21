@@ -17,7 +17,6 @@
     --nav-hover-background-color: var(--third-color);
 }
 
-
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -104,14 +103,48 @@ nav {
     font-size: 30px;
 }
 
-header {
-    display: grid;
-    grid-template-columns: auto 1fr;
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #fee;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px;
-    background-color: var(--accent1-color);
-    color: white;
-   
+    text-align: center;  
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul a { 
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 5px 50px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.menu ul a:hover { 
+    border-bottom: 4px solid darkgreen;
+    transition: 0.4s;
 }
 
 .history-section {
@@ -405,11 +438,12 @@ h1 {
 
 main {
     padding: 20px;
+    
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
@@ -421,18 +455,15 @@ main {
 }
 
 a {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #333;
+    
+    padding: 20px 20px;
+    
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
 }
 
-a:hover {
-    background: #555;
-}
 
 .form {
     padding: 40px;
@@ -528,3 +559,123 @@ button:hover {
     flex: 2;
     height: 100%;
 }
+
+/*Trips*/
+
+/*CONTACT US PART*/
+
+.history-section a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding: 14px 50px;
+    background-color: var(--primary-color);
+
+}
+
+.history-section a:hover {
+    background-color: darkgreen;
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+/*Here FINISH CONTACT US PART*/
+
+/*HERE STARTS THE TITLE FOR EACH IMAGE*/
+.trip {
+    display: inline;
+    text-align: center;
+    border-radius: 12px; 
+}
+
+.trip h2 {
+    color: var(--primary-color);
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    padding: 30px 30px;
+    background-color: var(--accent1-color);
+    
+}
+
+.trip a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px 30px;
+    background-color: var(--primary-color);
+}
+
+.trip a:hover{
+    background-color: darkgreen;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+/* Add these styles for the table and trips-info */
+.trips-info {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Additional styling for better aesthetics */
+.places {
+    margin-bottom: 30px;
+}
+
+.places img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*tryouts/*
+
+/* Add these styles for the updated trips layout */
+.trips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trip {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.trip-details {
+    padding: 10px;
+}
+
+.trip-info {
+    margin-top: 10px;
+}
+
+/* Additional styling for better aesthetics */
+.places img {
+    max-width: 100%;
+    height: auto;
+}
+
