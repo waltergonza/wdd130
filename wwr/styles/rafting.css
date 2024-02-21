@@ -129,8 +129,10 @@ nav {
 }
 
 .menu ul{
+    list-style-type: none;
     display: flex;
     align-items: center;
+
 }
 
 .menu ul a { 
